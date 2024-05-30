@@ -3,6 +3,7 @@ name: Build and Push devcontainers
 
 on:
   push:
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}
@@ -11,7 +12,9 @@ concurrency:
 jobs:
   build-and-push:
     timeout-minutes: 1440
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         id: checkout
