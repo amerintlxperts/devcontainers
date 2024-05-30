@@ -23,10 +23,9 @@ mkdir .devcontainer
 
 ```json
 {
-  "name": "devops-toolkit",
-  "image": "ghcr.io/robinmordasiewicz/devcontainer:latest",
-  "initializeCommand": "docker pull ghcr.io/robinmordasiewicz/devcontainer:latest",
-  "runArgs": ["--name=devcontainer", "--hostname=devcontainer"]
+  "name": "devopscontainer",
+  "image": "ghcr.io/amerintlxperts2024/devcontainer:latest",
+  "initializeCommand": "docker pull ghcr.io/amerintlxperts2024/devcontainer:latest"
 }
 ```
 
@@ -120,14 +119,14 @@ You find the setting Use containerd for pulling and storing images in Docker Des
 [Docker Desktop Mac](./docker-desktop-settings.png)
 
 ```bash
-devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name ghcr.io/robinmordasiewicz/devcontainer:latest --output type=docker --no-cache true
+devcontainer build --workspace-folder . --platform linux/arm64,linux/amd64 --image-name ghcr.io/amerintlxperts2024/devcontainer:latest --output type=docker --no-cache true
 ```
 
 ### Authenticate to your container registry github/docker/azure and push the image
 
 ```bash
 docker login
-docker push ghcr.io/robinmordasiewicz/devcontainer:latest
+docker push ghcr.io/amerintlxperts2024/devcontainer:latest
 ```
 
 
