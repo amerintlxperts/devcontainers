@@ -40,5 +40,5 @@ jobs:
         with:
           imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
           cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
-          configFile: src/devcontainer
+          configFile: ./src/devcontainer/.devcontainer/devcontainer.json
           platform: linux/arm64,linux/amd64
