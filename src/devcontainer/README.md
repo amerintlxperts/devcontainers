@@ -23,7 +23,7 @@ mkdir .devcontainer
 
 ```json
 {
-  "name": "devopscontainer",
+  "name": "devcontainer",
   "image": "ghcr.io/amerintlxperts2024/devcontainer:latest",
   "initializeCommand": "docker pull ghcr.io/amerintlxperts2024/devcontainer:latest"
 }
