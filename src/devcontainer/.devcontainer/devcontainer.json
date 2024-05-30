@@ -127,7 +127,7 @@
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
-    "ghcr.io/amerintlxperts2024/devcontainers.features/kubectl-helm-minikube": {
+    "ghcr.io/amerintlxperts2024/devcontainer-features/kubectl-helm-minikube": {
       "tools_path": "/usr/bin"
     },
     "ghcr.io/amerintlxperts2024/features/ansible-galaxy": {
