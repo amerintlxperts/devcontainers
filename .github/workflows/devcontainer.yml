@@ -14,7 +14,8 @@ jobs:
     timeout-minutes: 1440
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      packages: write
     steps:
       - name: Checkout
         id: checkout
