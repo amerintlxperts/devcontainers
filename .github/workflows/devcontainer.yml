@@ -54,10 +54,10 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 'Set up skopeo'
-        uses: warjiang/setup-skopeo@71776e03c10d767c04af8924fe5a67763f9b3d34
-        with:
-          version: latest
+      - name: Update Skopeo
+        run: |
+          sudo apt-get -y update
+          sudo apt-get -y install skopeo
 
       - name: Build and run Dev Container task
         uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
