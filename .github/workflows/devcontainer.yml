@@ -59,6 +59,7 @@ jobs:
           echo 'deb http://download.opensuse.org/repositories/home:/alvistack/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:alvistack.list
           curl -fsSL https://download.opensuse.org/repositories/home:alvistack/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_alvistack.gpg > /dev/null
           sudo apt-get -y update
+          sudo apt-get -y remove skopeo
           sudo apt-get -y install skopeo
 
       - name: Build and run Dev Container task
