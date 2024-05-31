@@ -26,6 +26,19 @@ jobs:
         with:
           tool-cache: true
 
+      - name: Free disk space
+        run: |
+          sudo apt-get remove -y aria2 ansible azure-cli shellcheck rpm xorriso zsync \
+            esl-erlang firefox gfortran-8 gfortran-9 google-chrome-stable \
+            google-cloud-sdk imagemagick \
+            libmagickcore-dev libmagickwand-dev libmagic-dev ant ant-optional kubectl \
+            mercurial apt-transport-https mono-complete libmysqlclient \
+            unixodbc-dev yarn chrpath libssl-dev libxft-dev snapd \
+            libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
+            snmp pollinate libpq-dev postgresql-client powershell ruby-full \
+            sphinxsearch subversion mongodb-org azure-cli microsoft-edge-stable --fix-missing
+
+
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
 
