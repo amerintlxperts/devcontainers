@@ -28,8 +28,9 @@ jobs:
 
       - name: Free disk space
         run: |
-          sudo apt-get remove -y aria2 shellcheck rpm xorriso zsync gfortran-9 nginx shim-signed \
-            imagemagick libmagickcore-dev libmagickwand-dev libmagic-dev ant ant-optional kubectl \
+          sudo apt-get remove -y --allow-remove-essential aria2 shellcheck rpm xorriso \
+            zsync gfortran-9 nginx shim-signed imagemagick libmagickcore-dev \
+            libmagickwand-dev libmagic-dev ant ant-optional kubectl \
             mercurial apt-transport-https unixodbc-dev yarn libssl-dev snapd \
             libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
             snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
