@@ -46,6 +46,7 @@ jobs:
           sudo aptitude purge '~n ^dotnet' -f -y >/dev/null 2>&1
           sudo apt-get autoremove -y >/dev/null 2>&1
           sudo apt-get autoclean -y >/dev/null 2>&1
+          sudo rm -rf ${GITHUB_WORKSPACE}/.git
 
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
