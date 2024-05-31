@@ -70,3 +70,5 @@ jobs:
           subFolder: src/devcontainer
           platform: linux/arm64,linux/amd64
           push: always
+        env:
+          BUILDX_NO_DEFAULT_ATTESTATIONS: 1
