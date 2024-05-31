@@ -70,5 +70,6 @@ jobs:
         with:
           imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
           cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
-          configFile: ./src/devcontainer/.devcontainer/devcontainer.json
+          subFolder: src/devcontainer
           platform: linux/arm64,linux/amd64
+          push: always
