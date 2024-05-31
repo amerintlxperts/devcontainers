@@ -130,7 +130,7 @@
     "ghcr.io/amerintlxperts2024/devcontainer-features/kubectl-helm-minikube": {
       "tools_path": "/usr/bin"
     },
-    "ghcr.io/amerintlxperts2024/features/ansible-galaxy": {
+    "ghcr.io/amerintlxperts2024/devcontainer-features/ansible-galaxy": {
       "extensions": [
         "fortinet.console",
         "fortinet.fortiadc",
@@ -142,16 +142,16 @@
         "fortinet.fortiweb"
       ]
     },
-    "ghcr.io/amerintlxperts2024/features/azure-cli-persistence": {},
-    "ghcr.io/amerintlxperts2024/features/container-dotfiles": {},
-    "ghcr.io/amerintlxperts2024/features/continue": {},
-    "ghcr.io/amerintlxperts2024/features/fortidevsec": {},
-    "ghcr.io/amerintlxperts2024/features/infracost": {},
-    "ghcr.io/amerintlxperts2024/features/krew": {},
-    "ghcr.io/amerintlxperts2024/features/lazygit": {},
-    "ghcr.io/amerintlxperts2024/features/lsd": {},
-    "ghcr.io/amerintlxperts2024/features/nerd-fonts": {},
-    "ghcr.io/amerintlxperts2024/features/npm-globals": {
+    "ghcr.io/amerintlxperts2024/devcontainer-features/azure-cli-persistence": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/container-dotfiles": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/continue": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/fortidevsec": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/infracost": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/krew": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/lazygit": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/lsd": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/nerd-fonts": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/npm-globals": {
       "extensions": [
         "bash-language-server",
         "dockerfile-language-server-nodejs",
@@ -172,13 +172,13 @@
         "yaml-language-server"
       ]
     },
-    "ghcr.io/amerintlxperts2024/features/oh-my-posh": {},
-    "ghcr.io/amerintlxperts2024/features/ollama-client": {},
-    "ghcr.io/amerintlxperts2024/features/opencommit": {},
-    "ghcr.io/amerintlxperts2024/features/powershell": {
+    "ghcr.io/amerintlxperts2024/devcontainer-features/oh-my-posh": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/ollama-client": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/opencommit": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/amerintlxperts2024/dotfiles/main/Microsoft.PowerShell_profile.ps1"
     },
-    "ghcr.io/amerintlxperts2024/features/zzz-preinstall-extensions": {
+    "ghcr.io/amerintlxperts2024/devcontainer-features/zzz-preinstall-extensions": {
       "extensions": [
         "alexcvzz.vscode-sqlite",
         "continue.continue",
@@ -226,9 +226,9 @@
         "tomoyukim.vscode-mermaid-editor"
       ]
     },
-    "ghcr.io/amerintlxperts2024/features/tflint": {},
-    "ghcr.io/amerintlxperts2024/features/update-conda": {},
-    "ghcr.io/amerintlxperts2024/features/vimrc": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/tflint": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/update-conda": {},
+    "ghcr.io/amerintlxperts2024/devcontainer-features/vimrc": {},
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
