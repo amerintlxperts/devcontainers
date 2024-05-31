@@ -50,6 +50,13 @@ jobs:
           sudo rm -rf ${GITHUB_WORKSPACE}/.git || true
           sudo rm -rf "$AGENT_TOOLSDIRECTORY" || true
 
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          # this might remove tools that are actually needed,
+          # if set to "true" but frees about 6 GB
+          tool-cache: false
+
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
 
