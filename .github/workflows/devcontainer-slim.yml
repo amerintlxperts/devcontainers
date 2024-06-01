@@ -1,11 +1,11 @@
 ---
-name: Build and Push devcontainers
+name: Build and Push devcontainer-slim
 
 on:
   push:
     paths:
-      - 'src/devcontainer/.devcontainer/devcontainer.json'
-      - 'src/devcontainer/devcontainer-template.json'
+      - 'src/devcontainer-slim/.devcontainer/devcontainer.json'
+      - 'src/devcontainer-slim/devcontainer-template.json'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -56,12 +56,12 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build devcontainer
+      - name: Build devcontainer-slim
         uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
         with:
-          imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
-          cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
-          subFolder: src/devcontainer
+          imageName: ghcr.io/${{ github.repository_owner }}/devcontainer-slim
+          cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer-slim
+          subFolder: src/devcontainer-slim
           platform: linux/arm64,linux/amd64
           push: always
         env:
