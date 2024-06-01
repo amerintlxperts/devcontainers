@@ -1,5 +1,5 @@
 ---
-name: Build and Push devcontainers
+name: Build and Push devcontainer
 
 on:
   workflow_dispatch:
