@@ -3,7 +3,9 @@ name: Build and Push devcontainers
 
 on:
   push:
-  workflow_dispatch:
+    paths:
+      - 'src/**/.devcontainer/devcontainer.json'
+      - 'src/**/devcontainer-template.json'
 
 concurrency:
   group: ${{ github.workflow }}
@@ -20,6 +22,17 @@ jobs:
       - name: Checkout
         id: checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+
+      - uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36
+        id: filter
+        with:
+          filters: |
+            devcontainer:
+              - 'src/devcontainer/**/**.json'
+              - 'src/devcontainer/**.json'
+            devcontainer-slim:
+              - 'src/devcontainer-slim/**/**.json'
+              - 'src/devcontainer-slim/**.json'
 
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
@@ -48,26 +61,32 @@ jobs:
           BUILDX_NO_DEFAULT_ATTESTATIONS: 1
 
       - name: Log in to the Container registry
+        if: steps.filter.outputs.devcontainer == 'true' || steps.filter.outputs.devcontainer-slim == 'true'
         uses: docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1
         with:
           registry: "ghcr.io"
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      #- name: Update Skopeo
-      #  run: |
-      #    echo 'deb http://download.opensuse.org/repositories/home:/alvistack/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:alvistack.list
-      #    curl -fsSL https://download.opensuse.org/repositories/home:alvistack/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_alvistack.gpg > /dev/null
-      #    sudo apt-get -y update
-      #    sudo apt-get -y remove skopeo
-      #    sudo apt-get -y install skopeo
-
-      - name: Build and run Dev Container task
+      - name: Build devcontainer
+        if: steps.filter.outputs.devcontainer == 'true'
         uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
         with:
           imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
           cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
           subFolder: src/devcontainer
+          platform: linux/arm64,linux/amd64
+          push: always
+        env:
+          BUILDX_NO_DEFAULT_ATTESTATIONS: 1
+
+      - name: Build devcontainer-slim
+        if: steps.filter.outputs.devcontainer-slim == 'true'
+        uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
+        with:
+          imageName: ghcr.io/${{ github.repository_owner }}/devcontainer-slim
+          cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer-slim
+          subFolder: src/devcontainer-slim
           platform: linux/arm64,linux/amd64
           push: always
         env:
