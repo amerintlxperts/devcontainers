@@ -2,6 +2,7 @@
 name: Build and Push devcontainers
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'src/devcontainer/.devcontainer/devcontainer.json'
