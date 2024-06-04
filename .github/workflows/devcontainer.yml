@@ -4,6 +4,8 @@ name: Build and Push devcontainer
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'src/devcontainer/.devcontainer/devcontainer.json'
       - 'src/devcontainer/devcontainer-template.json'
