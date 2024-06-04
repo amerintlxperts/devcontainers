@@ -1,8 +1,8 @@
 {
   "description": "devcontainer-slim",
-  "documentationURL": "https://github.com/amerintlxperts2024/templates/tree/main/src/devcontainer-slim",
+  "documentationURL": "https://github.com/amerintlxperts/templates/tree/main/src/devcontainer-slim",
   "id": "devcontainer-slim",
-  "licenseURL": "https://github.com/amerintlxperts2024/templates/blob/main/LICENSE",
+  "licenseURL": "https://github.com/amerintlxperts/templates/blob/main/LICENSE",
   "name": "devcontainer-slim",
   "options": {
     "imageVariant": {
@@ -18,5 +18,5 @@
     "linux/amd64",
     "linux/arm64"
   ],
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
