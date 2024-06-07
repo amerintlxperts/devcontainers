@@ -3,6 +3,9 @@ name: Build and Push devcontainer
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [features]
+  workflow_dispatch:
   push:
     branches:
       - main
