@@ -35,6 +35,7 @@
         "mkdocs-add-teaser"
       ]
     },
+    "ghcr.io/amerintlxperts/devcontainer-features/container-dotfiles": {},
     "ghcr.io/amerintlxperts/devcontainer-features/zzz-preinstall-extensions": {
       "extensions": [
         "davidAnson.vscode-markdownlint",
