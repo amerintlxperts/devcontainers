@@ -77,6 +77,7 @@
     },
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/mkdocs-environment": {},
     "ghcr.io/amerintlxperts/devcontainer-features/nerd-fonts": {},
     "ghcr.io/amerintlxperts/devcontainer-features/npm-globals": {
       "extensions": [
