@@ -213,7 +213,9 @@
     "ghcr.io/devcontainers-contrib/features/qrcode": {},
     "ghcr.io/devcontainers-contrib/features/shfmt": {},
     "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
-    "ghcr.io/devcontainers-contrib/features/terrascan": {},
+    "ghcr.io/devcontainers-contrib/features/terrascan": {
+      "version": "1.19.1"
+    },
     "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
     "ghcr.io/devcontainers-contrib/features/vscode-server": {},
