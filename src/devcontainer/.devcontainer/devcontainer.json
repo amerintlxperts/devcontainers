@@ -113,6 +113,7 @@
     "ghcr.io/amerintlxperts/devcontainer-features/yq": {},
     "ghcr.io/amerintlxperts/devcontainer-features/zzz-preinstall-extensions": {
       "extensions": [
+        "anderson.vscode-extension-paste-image",
         "alexcvzz.vscode-sqlite",
         "continue.continue",
         "davidAnson.vscode-markdownlint",
