@@ -30,6 +30,7 @@
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
+        "azure-cognitiveservices-speech",
         "mkdocs-material",
         "mkdocs-awesome-pages-plugin",
         "mkdocs-git-authors-plugin",
@@ -54,6 +55,118 @@
         "oterm"
       ]
     },
+    "ghcr.io/audacioustux/devcontainers/k9s": {},
+    "ghcr.io/devcontainers-community/npm-features/prettier": {},
+    "ghcr.io/devcontainers-contrib/features/act": {},
+    "ghcr.io/devcontainers-contrib/features/actionlint": {},
+    "ghcr.io/devcontainers-contrib/features/apt-packages": {
+      "packages": [
+        "autoconf",
+        "bash-completion",
+        "cmake",
+        "dnsutils",
+        "dos2unix",
+        "file",
+        "graphviz",
+        "libgstreamer1.0-0",
+        "gstreamer1.0-plugins-base",
+        "gstreamer1.0-plugins-good",
+        "gstreamer1.0-plugins-bad",
+        "gstreamer1.0-plugins-ugly",
+        "iputils-ping",
+        "libgif-dev",
+        "libpoppler-cpp-dev",
+        "libsecret-1-dev",
+        "libyelp-dev",
+        "mtr",
+        "nmap",
+        "software-properties-common",
+        "tcpdump",
+        "tesseract-ocr",
+        "tofrodos",
+        "ubuntu-drivers-common",
+        "yelp-tools"
+      ]
+    },
+    "ghcr.io/devcontainers-contrib/features/argo-cd": {},
+    "ghcr.io/devcontainers-contrib/features/aztfexport": {},
+    "ghcr.io/devcontainers-contrib/features/black": {},
+    "ghcr.io/devcontainers-contrib/features/checkov": {},
+    "ghcr.io/devcontainers-contrib/features/curl-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/devcontainers-cli": {},
+    "ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/fzf": {},
+    "ghcr.io/devcontainers-contrib/features/infracost": {},
+    "ghcr.io/devcontainers-contrib/features/istioctl": {},
+    "ghcr.io/devcontainers-contrib/features/kubectx-kubens": {},
+    "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
+    "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/pylint": {},
+    "ghcr.io/devcontainers-contrib/features/qrcode": {},
+    "ghcr.io/devcontainers-contrib/features/shfmt": {},
+    "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
+    "ghcr.io/devcontainers-contrib/features/terrascan": {},
+    "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
+    "ghcr.io/devcontainers-contrib/features/vscode-server": {},
+    "ghcr.io/devcontainers-contrib/features/wget-apt-get": {},
+    "ghcr.io/devcontainers-contrib/features/yamllint": {},
+    "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
+    "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
+      "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
+      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode aws fzf"
+    },
+    "ghcr.io/devcontainers/features/aws-cli": {},
+    "ghcr.io/devcontainers/features/azure-cli": {
+      "extensions": "account,interactive",
+      "installBicep": "true"
+    },
+    "ghcr.io/devcontainers/features/common-utils": {
+      "configureZshAsDefaultShell": true,
+      "nonFreePackages": "true"
+    },
+    "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
+    "ghcr.io/devcontainers/features/dotnet": {
+      "aspNetCoreRuntimeVersions": "latest",
+      "dotnetRuntimeVersions": "latest",
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/git-lfs": {},
+    "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/hugo": {},
+    "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/powershell": {
+      "powershellProfileURL": "https://raw.githubusercontent.com/robinmordasiewicz/dotfiles/main/Microsoft.PowerShell_profile.ps1",
+      "version": "7.4.2"
+    },
+    "ghcr.io/devcontainers/features/python": {
+      "installTools": true,
+      "version": "3.12"
+    },
+    "ghcr.io/dhoeric/features/terraformer": {},
+    "ghcr.io/dhoeric/features/tfsec": {},
+    "ghcr.io/dhoeric/features/trivy": {},
+    "ghcr.io/guiyomh/features/vim": {},
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint": {},
+    "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
+    "ghcr.io/iterative/features/nvtop": {},
+    "ghcr.io/itsmechlark/features/postgresql": {},
+    "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
+    "ghcr.io/jsburckhardt/devcontainer-features/flux": {
+      "version": "v2.1.2"
+    },
+    "ghcr.io/jsburckhardt/devcontainer-features/gitleaks": {},
+    "ghcr.io/jungaretti/features/make": {},
+    "ghcr.io/lukewiwa/features/shellcheck": {},
+    "ghcr.io/prulloac/devcontainer-features/gitlint": {},
+    "ghcr.io/prulloac/devcontainer-features/ollama": {},
+    "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
+    "ghcr.io/rio/features/kustomize": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/kubectl-helm-minikube": {
+      "tools_path": "/usr/bin"
+    },
     "ghcr.io/amerintlxperts/devcontainer-features/ansible-galaxy": {
       "extensions": [
         "fortinet.console",
@@ -72,9 +185,6 @@
     "ghcr.io/amerintlxperts/devcontainer-features/fortidevsec": {},
     "ghcr.io/amerintlxperts/devcontainer-features/infracost": {},
     "ghcr.io/amerintlxperts/devcontainer-features/krew": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/kubectl-helm-minikube": {
-      "tools_path": "/usr/bin"
-    },
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
     "ghcr.io/amerintlxperts/devcontainer-features/mkdocs-environment": {},
@@ -100,33 +210,37 @@
         "yaml-language-server"
       ]
     },
-    "ghcr.io/amerintlxperts/devcontainer-features/oh-my-posh": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/ollama-client": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/opencommit": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/powershell": {
-      "powershellProfileURL": "https://raw.githubusercontent.com/amerintlxperts/dotfiles/main/Microsoft.PowerShell_profile.ps1"
+    "ghcr.io/amerintlxperts/devcontainer-features/nvidia-cuda": {
+      "driverVersion": "550",
+      "installToolkit": true
     },
+    "ghcr.io/amerintlxperts/devcontainer-features/oh-my-posh": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/opencommit": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/speedtest": {},
     "ghcr.io/amerintlxperts/devcontainer-features/tflint": {},
     "ghcr.io/amerintlxperts/devcontainer-features/update-conda": {},
     "ghcr.io/amerintlxperts/devcontainer-features/vimrc": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/yq": {},
     "ghcr.io/amerintlxperts/devcontainer-features/zzz-preinstall-extensions": {
       "extensions": [
         "alexcvzz.vscode-sqlite",
         "continue.continue",
         "davidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
-        "donjayamanne.githistory",
         "esbenp.prettier-vscode",
-        "felipecaputo.git-project-manager",
-        "github.remotehub",
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
+        "grapecity.gc-excelviewer",
         "hashicorp.terraform",
+        "hediet.vscode-drawio",
+        "jeff-hykin.polacode-2019",
+        "lacework-security.lacework-code-security",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureappservice",
         "ms-azuretools.vscode-azurefunctions",
         "ms-azuretools.vscode-azureresourcegroups",
         "ms-azuretools.vscode-azurestorage",
+        "ms-azuretools.vscode-azureterraform",
         "ms-azuretools.vscode-azurevirtualmachines",
         "ms-azuretools.vscode-bicep",
         "ms-azuretools.vscode-cosmosdb",
@@ -147,6 +261,7 @@
         "ms-vscode.azurecli",
         "ms-vscode.vscode-node-azure-pack",
         "ms-vscode.powershell",
+        "ms-vscode-remote.remote-ssh",
         "msazurermtools.azurerm-vscode-tools",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-pg",
@@ -156,10 +271,15 @@
         "redhat.ansible",
         "redhat.vscode-yaml",
         "richie5um2.vscode-sort-json",
+        "streetsidesoftware.code-spell-checker",
         "timonwong.shellcheck",
-        "tomoyukim.vscode-mermaid-editor"
+        "tomoyukim.vscode-mermaid-editor",
+        "weaveworks.vscode-gitops-tools",
+        "vsls-contrib.codetour",
+        "yzhang.markdown-all-in-one"
       ]
     },
+<<<<<<< HEAD
     "ghcr.io/audacioustux/devcontainers/k9s": {},
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
@@ -249,9 +369,14 @@
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
+=======
+>>>>>>> 61e2d4d (updating presentation)
     "ghcr.io/rocker-org/devcontainer-features/miniforge": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
+  },
+  "hostRequirements": {
+    "gpu": "optional"
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu22.04",
