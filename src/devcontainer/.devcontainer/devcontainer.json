@@ -78,7 +78,6 @@
     },
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/mkdocs-environment": {},
     "ghcr.io/amerintlxperts/devcontainer-features/nerd-fonts": {},
     "ghcr.io/amerintlxperts/devcontainer-features/npm-globals": {
       "extensions": [
@@ -182,13 +181,21 @@
         "dnsutils",
         "dos2unix",
         "file",
+        "graphviz",
+        "libgstreamer1.0-0",
+        "gstreamer1.0-plugins-base",
+        "gstreamer1.0-plugins-good",
+        "gstreamer1.0-plugins-bad",
+        "gstreamer1.0-plugins-ugly",
         "iputils-ping",
         "libgif-dev",
         "libpoppler-cpp-dev",
         "libsecret-1-dev",
         "libyelp-dev",
         "mtr",
+        "nmap",
         "software-properties-common",
+        "tcpdump",
         "tesseract-ocr",
         "tofrodos",
         "ubuntu-drivers-common",
@@ -207,7 +214,6 @@
     "ghcr.io/devcontainers-contrib/features/istioctl": {},
     "ghcr.io/devcontainers-contrib/features/kubectx-kubens": {},
     "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
-    "ghcr.io/devcontainers-contrib/features/opa": {},
     "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
     "ghcr.io/devcontainers-contrib/features/pylint": {},
     "ghcr.io/devcontainers-contrib/features/qrcode": {},
@@ -224,7 +230,7 @@
     "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
       "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
-      "plugins": "zsh-syntax-highlighting zsh-autosuggestions ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform"
+      "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode aws fzf"
     },
     "ghcr.io/devcontainers/features/aws-cli": {},
     "ghcr.io/devcontainers/features/azure-cli": {
@@ -256,13 +262,13 @@
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
-    "ghcr.io/goldsam/dev-container-features/flux2": {},
     "ghcr.io/guiyomh/features/vim": {},
     "ghcr.io/hspaans/devcontainer-features/ansible-lint": {},
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/iterative/features/nvtop": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
     "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/gcloud-cli-persistence": {},
     "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
     "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
     "ghcr.io/jsburckhardt/devcontainer-features/flux": {
