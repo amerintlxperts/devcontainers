@@ -49,7 +49,6 @@
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-ossdata.vscode-postgresql",
         "ms-python.debugpy",
-        "ms-python.vscode-pylance",
         "ms-toolsai.jupyter",
         "ms-toolsai.vscode-jupyter-powertoys",
         "ms-vscode.azure-account",
