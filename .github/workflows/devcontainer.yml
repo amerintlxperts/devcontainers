@@ -19,7 +19,7 @@ concurrency:
 jobs:
   build-and-push:
     timeout-minutes: 1440
-    runs-on: linux-x64
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
