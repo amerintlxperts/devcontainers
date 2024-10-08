@@ -42,6 +42,11 @@ jobs:
      #       libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
      #       snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
 
+      - name: 'Set up skopeo'
+        uses: warjiang/setup-skopeo@latest
+        with:
+          version: latest
+
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
         with:
