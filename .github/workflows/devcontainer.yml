@@ -43,9 +43,7 @@ jobs:
      #       snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
 
       - name: 'Set up skopeo'
-        uses: warjiang/setup-skopeo@latest
-        with:
-          version: latest
+        uses: warjiang/setup-skopeo@71776e03c10d767c04af8924fe5a67763f9b3d34
 
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
