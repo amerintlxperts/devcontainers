@@ -58,7 +58,7 @@
         "mkdocs-table-reader-plugin",
         "mkdocs-with-pdf",
         "mkdocstrings[crystal]",
-        "mkdocstrings[crystal,python]",
+        "mkdocstrings[python]",
         "oauth2client",
         "oterm",
         "progressbar2",
