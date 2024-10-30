@@ -61,6 +61,7 @@
         "mkdocstrings[python]",
         "oauth2client",
         "oterm",
+        "playwright",
         "progressbar2",
         "pydantic",
         "pytest-playwright",
