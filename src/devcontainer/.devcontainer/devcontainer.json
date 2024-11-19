@@ -181,6 +181,7 @@
     "ghcr.io/devcontainers-contrib/features/apt-packages": {
       "packages": [
         "alsa-utils",
+        "apache2-utils",
         "libappindicator3-1",
         "libdbusmenu-glib4",
         "libdbusmenu-gtk3-4",
