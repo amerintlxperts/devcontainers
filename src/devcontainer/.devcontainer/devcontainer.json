@@ -81,6 +81,7 @@
       ]
     },
     "ghcr.io/amerintlxperts/devcontainer-features/azure-cli-persistence": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/cmctl": {},
     "ghcr.io/amerintlxperts/devcontainer-features/container-dotfiles": {},
     "ghcr.io/amerintlxperts/devcontainer-features/continue": {},
     "ghcr.io/amerintlxperts/devcontainer-features/draw.io": {},
