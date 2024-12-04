@@ -90,7 +90,7 @@
     "ghcr.io/amerintlxperts/devcontainer-features/krew": {},
     "ghcr.io/amerintlxperts/devcontainer-features/kubectl-helm-minikube": {
       "tools_path": "/usr/bin",
-      "version": "1.30.7"
+      "version": "1.30.6"
     },
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
