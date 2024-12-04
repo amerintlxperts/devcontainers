@@ -26,7 +26,7 @@
         }
       }
     }
-  }, 
+  },
   "features": {
     "ghcr.io/akhildevelops/devcontainer-features/pip": {
       "packages": [
@@ -89,7 +89,8 @@
     "ghcr.io/amerintlxperts/devcontainer-features/infracost": {},
     "ghcr.io/amerintlxperts/devcontainer-features/krew": {},
     "ghcr.io/amerintlxperts/devcontainer-features/kubectl-helm-minikube": {
-      "tools_path": "/usr/bin"
+      "tools_path": "/usr/bin",
+      "version": "1.30.7"
     },
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
