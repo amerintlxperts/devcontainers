@@ -177,6 +177,11 @@
       ]
     },
     "ghcr.io/audacioustux/devcontainers/k9s": {},
+    "ghcr.io/azutake/devcontainer-features/go-packages-install": {
+      "PACKAGES": [
+        "github.com/robusta-dev/kubewatch@latest"
+      ]
+    },
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
     "ghcr.io/devcontainers-contrib/features/act": {},
     "ghcr.io/devcontainers-contrib/features/actionlint": {},
@@ -299,6 +304,7 @@
     },
     "ghcr.io/devcontainers/features/git-lfs": {},
     "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/go": {},
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/powershell": {
