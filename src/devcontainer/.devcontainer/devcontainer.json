@@ -315,6 +315,7 @@
       "installTools": true,
       "version": "3.12"
     },
+    "ghcr.io/dhoeric/features/google-cloud-cli": {},
     "ghcr.io/dhoeric/features/terraformer": {},
     "ghcr.io/dhoeric/features/tfsec": {},
     "ghcr.io/dhoeric/features/trivy": {},
