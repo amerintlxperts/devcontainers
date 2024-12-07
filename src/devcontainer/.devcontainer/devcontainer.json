@@ -35,6 +35,7 @@
         "ansible-creator",
         "ansible-dev-environment",
         "azure-cognitiveservices-speech",
+        "docs-chat-bot",
         "fastapi",
         "google-api-python-client",
         "mkdocs-add-teaser",
