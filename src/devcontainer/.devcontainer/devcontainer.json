@@ -38,6 +38,7 @@
         "docs-chat-bot",
         "fastapi",
         "google-api-python-client",
+        "markitdown",
         "mkdocs-add-teaser",
         "mkdocs-awesome-pages-plugin",
         "mkdocs-childpages-card-grid-plugin",
