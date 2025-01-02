@@ -129,7 +129,6 @@
       "installToolkit": true
     },
     "ghcr.io/amerintlxperts/devcontainer-features/oh-my-posh": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/speedtest": {},
     "ghcr.io/amerintlxperts/devcontainer-features/tflint": {},
     "ghcr.io/amerintlxperts/devcontainer-features/ubuntu-restricted-extras": {},
     "ghcr.io/amerintlxperts/devcontainer-features/vimrc": {},
