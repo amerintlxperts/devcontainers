@@ -335,7 +335,6 @@
     },
     "ghcr.io/jsburckhardt/devcontainer-features/gitleaks": {},
     "ghcr.io/jungaretti/features/make": {},
-    "ghcr.io/kreemer/features/chrometesting": {},
     "ghcr.io/lukewiwa/features/shellcheck": {},
     "ghcr.io/prulloac/devcontainer-features/gitlint": {},
     "ghcr.io/prulloac/devcontainer-features/ollama": {},
