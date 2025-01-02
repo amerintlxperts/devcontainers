@@ -197,7 +197,7 @@
         "libdbusmenu-glib4",
         "libdbusmenu-gtk3-4",
         "libgl1-mesa-dri",
-        "libgl1-mesa-glx",
+        "libgl1",
         "libglx-mesa0",
         "libvulkan1",
         "mesa-utils",
