@@ -7,7 +7,7 @@
   "options": {
     "imageVariant": {
       "default": "jammy",
-      "description": "Ubuntu 22.04 on amd64 or arm64 are available.",
+      "description": "Ubuntu 24.04 on amd64 or arm64 are available.",
       "proposals": [
         "jammy"
       ],
@@ -18,5 +18,5 @@
     "linux/amd64",
     "linux/arm64"
   ],
-  "version": "0.3.6"
+  "version": "0.3.7"
 }
