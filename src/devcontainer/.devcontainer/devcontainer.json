@@ -124,7 +124,7 @@
     "ghcr.io/amerintlxperts/devcontainer-features/nvidia-cuda": {
       "cudaVersion": "12.6",
       "cudnnVersion": "9.6.0",
-      "driverVersion": "560",
+      "driverVersion": "550",
       "installNvtx": true,
       "installToolkit": true
     },
