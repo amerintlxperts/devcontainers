@@ -346,8 +346,8 @@
   "hostRequirements": {
     "gpu": "optional"
   },
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu24.04",
-  "initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu24.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
+  #"initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu24.04",
   "name": "devcontainer",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "runArgs": [
