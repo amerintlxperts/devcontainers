@@ -122,8 +122,7 @@
       ]
     },
     "ghcr.io/amerintlxperts/devcontainer-features/nvidia-cuda": {
-      "cudaVersion": "12.6",
-      "cudnnVersion": "9.6.0",
+      "cudaVersion": "12.4",
       "driverVersion": "550",
       "installNvtx": true,
       "installToolkit": true
@@ -347,7 +346,7 @@
     "gpu": "optional"
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
-  #"initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu24.04",
+  #"initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "name": "devcontainer",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "runArgs": [
