@@ -152,6 +152,7 @@
         "ms-kubernetes-tools.aks-devx-tools",
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-ossdata.vscode-postgresql",
+        "ms-playwright.playwright",
         "ms-python.debugpy",
         "ms-toolsai.jupyter",
         "ms-toolsai.vscode-jupyter-powertoys",
