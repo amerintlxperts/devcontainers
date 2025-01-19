@@ -160,6 +160,7 @@
         "ms-vscode.vscode-node-azure-pack",
         "ms-vscode.powershell",
         "ms-vscode-remote.remote-ssh",
+        "ms-vsliveshare.vsliveshare",
         "msazurermtools.azurerm-vscode-tools",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-pg",
@@ -346,7 +347,6 @@
     "gpu": "optional"
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
-  #"initializeCommand": "docker pull mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "name": "devcontainer",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "runArgs": [
