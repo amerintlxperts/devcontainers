@@ -161,7 +161,6 @@
         "ms-vscode.vscode-node-azure-pack",
         "ms-vscode.powershell",
         "ms-vscode-remote.remote-ssh",
-        "msazurermtools.azurerm-vscode-tools",
         "nhoizey.gremlins",
         "nitayneeman.puppeteer-snippets",
         "omartawfik.github-actions-vscode",
