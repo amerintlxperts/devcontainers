@@ -94,7 +94,8 @@
       "tools_path": "/usr/bin",
       "version": "1.30.6"
     },
-    "ghcr.io/amerintlxperts/devcontainer-features/laceworks-cli": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/lacework-cli": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/lacework-extensible-reporting": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
     "ghcr.io/amerintlxperts/devcontainer-features/nerd-fonts": {},
