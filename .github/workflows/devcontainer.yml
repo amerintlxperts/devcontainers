@@ -91,7 +91,8 @@ jobs:
       - name: Build container
         run: |
           # npm install -g @devcontainers/cli
-          devcontainer build --workspace-folder src/devcontainer --image-name ghcr.io/${{ github.repository_owner }}/devcontainer:latest --platform linux/amd64 --output type=docker --cache-from ghcr.io/amerintlxperts/devcontainer:latest
+          devcontainer build --workspace-folder src/devcontainer --image-name ghcr.io/${{ github.repository_owner }}/devcontainer --platform linux/amd64 --output type=docker --cache-from ghcr.io/amerintlxperts/devcontainer:latest
+          docker tag ghcr.io/amerintlxperts/devcontainer ghcr.io/amerintlxperts/devcontainer:latest
           docker push ghcr.io/amerintlxperts/devcontainer:latest
 
 #      - name: Build devcontainer
