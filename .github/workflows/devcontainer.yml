@@ -83,6 +83,16 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version: '18'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version: '18'
+
       - name: Build devcontainer
         uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
         with:
