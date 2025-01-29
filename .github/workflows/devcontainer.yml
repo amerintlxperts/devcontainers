@@ -19,7 +19,7 @@ concurrency:
 jobs:
   build-and-push:
     timeout-minutes: 1440
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
@@ -28,22 +28,22 @@ jobs:
         id: checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
-     # - name: Free Disk Space
-     #   uses: jlumbroso/free-disk-space@main
-     #   with:
-     #     tool-cache: true
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
 
-     # - name: Free Disk Space Manual
-     #   run: |
-     #     sudo apt-get remove -y --allow-remove-essential aria2 shellcheck rpm xorriso \
-     #       zsync gfortran-9 nginx shim-signed imagemagick libmagickcore-dev \
-     #       libmagickwand-dev libmagic-dev ant ant-optional kubectl \
-     #       mercurial apt-transport-https unixodbc-dev yarn libssl-dev snapd \
-     #       libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
-     #       snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
+      - name: Free Disk Space Manual
+        run: |
+          sudo apt-get remove -y --allow-remove-essential aria2 shellcheck rpm xorriso \
+            zsync gfortran-9 nginx shim-signed imagemagick libmagickcore-dev \
+            libmagickwand-dev libmagic-dev ant ant-optional kubectl \
+            mercurial apt-transport-https unixodbc-dev yarn libssl-dev snapd \
+            libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
+            snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
 
-      #- name: 'Set up skopeo'
-      #  uses: warjiang/setup-skopeo@71776e03c10d767c04af8924fe5a67763f9b3d34
+      - name: 'Set up skopeo'
+        uses: warjiang/setup-skopeo@71776e03c10d767c04af8924fe5a67763f9b3d34
 
       - name: Set up QEMU for multi-architecture builds
         uses: docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3
