@@ -45,6 +45,12 @@ jobs:
 #      - name: 'Set up skopeo'
 #        uses: warjiang/setup-skopeo@71776e03c10d767c04af8924fe5a67763f9b3d34
 
+      - name: Prepare environment
+        run: |
+          mkdir -p /home/runner/actions-runner/amerintlxperts/devcontainers/_work/_temp/runtime-dir
+          echo "XDG_RUNTIME_DIR=/home/runner/actions-runner/amerintlxperts/devcontainers/_work/_temp/runtime-dir" >> $GITHUB_ENV
+          chmod 700 /home/runner/actions-runner/amerintlxperts/devcontainers/_work/_temp/runtime-dir
+
       - name: Set up Docker
         uses: docker/setup-docker-action@v4
         with:
