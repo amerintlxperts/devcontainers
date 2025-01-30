@@ -19,7 +19,7 @@ concurrency:
 jobs:
   build-and-push:
     timeout-minutes: 1440
-    runs-on: self-hosted
+    runs-on: ubuntu-latest-m
     permissions:
       contents: read
       packages: write
@@ -28,19 +28,19 @@ jobs:
         id: checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
-#      - name: Free Disk Space
-#        uses: jlumbroso/free-disk-space@main
-#        with:
-#          tool-cache: true
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
 
-#      - name: Free Disk Space Manual
-#        run: |
-#          sudo apt-get remove -y --allow-remove-essential aria2 shellcheck rpm xorriso \
-#            zsync gfortran-9 nginx shim-signed imagemagick libmagickcore-dev \
-#            libmagickwand-dev libmagic-dev ant ant-optional kubectl \
-#            mercurial apt-transport-https unixodbc-dev yarn libssl-dev snapd \
-#            libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
-#            snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
+      - name: Free Disk Space Manual
+        run: |
+          sudo apt-get remove -y --allow-remove-essential aria2 shellcheck rpm xorriso \
+            zsync gfortran-9 nginx shim-signed imagemagick libmagickcore-dev \
+            libmagickwand-dev libmagic-dev ant ant-optional kubectl \
+            mercurial apt-transport-https unixodbc-dev yarn libssl-dev snapd \
+            libfreetype6 libfreetype6-dev libfontconfig1 libfontconfig1-dev \
+            snmp pollinate libpq-dev ruby-full subversion microsoft-edge-stable || true
 
 #      - name: Prepare environment
 #        run: |
@@ -73,8 +73,8 @@ jobs:
         env:
           BUILDX_NO_DEFAULT_ATTESTATIONS: 1
 
-      - name: Set Docker Host
-        run: echo "DOCKER_HOST=unix:///var/run/docker.sock" >> $GITHUB_ENV
+#      - name: Set Docker Host
+#        run: echo "DOCKER_HOST=unix:///var/run/docker.sock" >> $GITHUB_ENV
 
       - name: Log in to the Container registry
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567
@@ -83,26 +83,25 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4.2.0
-        with:
-          node-version: '18'
-
-      - name: Build container
-        run: |
-          # npm install -g @devcontainers/cli
-          devcontainer build --workspace-folder src/devcontainer --image-name ghcr.io/${{ github.repository_owner }}/devcontainer --platform linux/amd64 --output type=docker --cache-from ghcr.io/amerintlxperts/devcontainer:latest
-          docker tag ghcr.io/amerintlxperts/devcontainer ghcr.io/amerintlxperts/devcontainer:latest
-          docker push ghcr.io/amerintlxperts/devcontainer:latest
-
-#      - name: Build devcontainer
-#        uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v4.2.0
 #        with:
-#          imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
-#          cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
-#          subFolder: src/devcontainer
-#          #platform: linux/arm64,linux/amd64
-#          platform: linux/amd64
-#          push: always
-#        env:
-#          BUILDX_NO_DEFAULT_ATTESTATIONS: 1
+#          node-version: '18'
+
+#      - name: Build container
+#        run: |
+#          npm install -g @devcontainers/cli
+#          devcontainer build --workspace-folder src/devcontainer --image-name ghcr.io/${{ github.repository_owner }}/devcontainer --platform linux/amd64 --output type=docker --cache-from ghcr.io/amerintlxperts/devcontainer:latest
+#          docker tag ghcr.io/amerintlxperts/devcontainer ghcr.io/amerintlxperts/devcontainer:latest
+#          docker push ghcr.io/amerintlxperts/devcontainer:latest
+
+      - name: Build devcontainer
+        uses: devcontainers/ci@a56d055efecd725e8cfe370543b6071b79989cc8
+        with:
+          imageName: ghcr.io/${{ github.repository_owner }}/devcontainer
+          cacheFrom: ghcr.io/${{ github.repository_owner }}/devcontainer
+          subFolder: src/devcontainer
+          platform: linux/amd64
+          push: always
+        env:
+          BUILDX_NO_DEFAULT_ATTESTATIONS: 1
