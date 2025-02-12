@@ -144,6 +144,8 @@
         "esbenp.prettier-vscode",
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
+        "gitHub.copilot",
+        "gitHub.copilot-chat",
         "grapecity.gc-excelviewer",
         "hashicorp.terraform",
         "hediet.vscode-drawio",
