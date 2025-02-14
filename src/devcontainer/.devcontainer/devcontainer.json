@@ -3,7 +3,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "dotnetAcquisitionExtension.existingDotnetPath": "/usr/bin/dotnet",
+        "dotnetAcquisitionExtension.existingDotnetPath": "/usr/share/dotnet/dotnet",
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
           "bash": {
