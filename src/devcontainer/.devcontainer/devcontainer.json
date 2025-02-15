@@ -165,6 +165,7 @@
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureresourcegroups",
         "ms-cst-e.vscode-devskim",
+        "ms-dotnettools.csdevkit",
         "ms-edgedevtools.vscode-edge-devtools",
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-kubernetes-tools.vscode-kubernetes-tools",
