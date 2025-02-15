@@ -3,6 +3,16 @@
   "customizations": {
     "vscode": {
       "settings": {
+        "dotnetAcquisitionExtension.existingDotnetPath": [
+          {
+            "extensionId": "MS-CST-E.vscode-devskim",
+            "path": "/usr/share/dotnet/dotnet"
+          },
+          {
+            "extensionId": "ms-azuretools.vscode-azure-github-copilot",
+            "path": "/usr/share/dotnet/dotnet"
+          }
+        ],
         "dotnetAcquisitionExtension.sharedExistingDotnetPath": "/usr/share/dotnet/dotnet",
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
