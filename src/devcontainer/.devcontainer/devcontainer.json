@@ -48,6 +48,7 @@
         "azure-cognitiveservices-speech",
         "docs-chat-bot",
         "fastapi",
+        "git-filter-repo",
         "google-api-python-client",
         "markitdown",
         "mkdocs-add-teaser",
