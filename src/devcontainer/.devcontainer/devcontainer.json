@@ -100,6 +100,7 @@
     "ghcr.io/amerintlxperts/devcontainer-features/continue": {},
     "ghcr.io/amerintlxperts/devcontainer-features/draw.io": {},
     "ghcr.io/amerintlxperts/devcontainer-features/fortidevsec": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/git-bfg-cleaner": {},
     "ghcr.io/amerintlxperts/devcontainer-features/infracost": {},
     "ghcr.io/amerintlxperts/devcontainer-features/krew": {},
     "ghcr.io/amerintlxperts/devcontainer-features/kubectl-helm-minikube": {
@@ -323,9 +324,9 @@
     },
     "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
     "ghcr.io/devcontainers/features/dotnet": {
-      "aspNetCoreRuntimeVersions": "latest",
-      "dotnetRuntimeVersions": "latest",
-      "version": "latest"
+      "aspNetCoreRuntimeVersions": "latest,8.0.13",
+      "dotnetRuntimeVersions": "latest,8.0.13",
+      "version": "latest,8.0.13"
     },
     "ghcr.io/devcontainers/features/git-lfs": {},
     "ghcr.io/devcontainers/features/github-cli": {},
