@@ -324,9 +324,9 @@
     },
     "ghcr.io/devcontainers/features/docker-outside-of-docker": {},
     "ghcr.io/devcontainers/features/dotnet": {
-      "additionalVersions": "8.0.13",
-      "aspNetCoreRuntimeVersions": "8.0.13",
-      "dotnetRuntimeVersions": "8.0.13"
+      "additionalVersions": "8.0",
+      "aspNetCoreRuntimeVersions": "8.0",
+      "dotnetRuntimeVersions": "8.0"
     },
     "ghcr.io/devcontainers/features/git-lfs": {},
     "ghcr.io/devcontainers/features/github-cli": {},
