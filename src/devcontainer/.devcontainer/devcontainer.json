@@ -170,6 +170,7 @@
         "lacework-security.lacework-code-security",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-azureresourcegroups",
+        "ms-azuretools.vscode-azureterraform",
         "ms-azuretools.vscode-docker",
         "ms-cst-e.vscode-devskim",
         "ms-dotnettools.csdevkit",
