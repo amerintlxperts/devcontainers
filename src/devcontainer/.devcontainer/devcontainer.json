@@ -3,6 +3,7 @@
   "customizations": {
     "vscode": {
       "settings": {
+        "csharp.devkit.preferVsCodeFileSystemWatcher": true,
         "dotnetAcquisitionExtension.existingDotnetPath": [
           {
             "extensionId": "MS-CST-E.vscode-devskim",
