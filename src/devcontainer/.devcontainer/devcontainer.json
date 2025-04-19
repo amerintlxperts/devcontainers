@@ -232,6 +232,7 @@
       "packages": [
         "alsa-utils",
         "apache2-utils",
+        "cockpit",
         "libappindicator3-1",
         "libdbusmenu-glib4",
         "libdbusmenu-gtk3-4",
