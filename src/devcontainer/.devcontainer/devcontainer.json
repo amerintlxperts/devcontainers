@@ -353,6 +353,7 @@
     "ghcr.io/devcontainers/features/hugo": {},
     "ghcr.io/devcontainers/features/java": {},
     "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/php": {},
     "ghcr.io/devcontainers/features/powershell": {
       "powershellProfileURL": "https://raw.githubusercontent.com/amerintlxperts/dotfiles/main/Microsoft.PowerShell_profile.ps1",
       "version": "7.4.2"
