@@ -96,7 +96,6 @@
         "fortinet.fortiweb"
       ]
     },
-    "ghcr.io/amerintlxperts/devcontainer-features/azure-cli-persistence": {},
     "ghcr.io/amerintlxperts/devcontainer-features/cmctl": {},
     "ghcr.io/amerintlxperts/devcontainer-features/container-dotfiles": {},
     "ghcr.io/amerintlxperts/devcontainer-features/continue": {},
@@ -109,7 +108,6 @@
       "tools_path": "/usr/bin",
       "version": "1.30.6"
     },
-    "ghcr.io/amerintlxperts/devcontainer-features/lacework-cli": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lacework-extensible-reporting": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lazygit": {},
     "ghcr.io/amerintlxperts/devcontainer-features/lsd": {},
@@ -371,10 +369,6 @@
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/iterative/features/nvtop": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
-    "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
-    "ghcr.io/joshuanianji/devcontainer-features/gcloud-cli-persistence": {},
-    "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
-    "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
     "ghcr.io/jsburckhardt/devcontainer-features/flux": {
       "version": "v2.1.2"
     },
