@@ -369,6 +369,10 @@
     "ghcr.io/hwaien/devcontainer-features/match-host-time-zone": {},
     "ghcr.io/iterative/features/nvtop": {},
     "ghcr.io/itsmechlark/features/postgresql": {},
+    "ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/gcloud-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence": {},
+    "ghcr.io/joshuanianji/devcontainer-features/terraform-cli-persistence": {},
     "ghcr.io/jsburckhardt/devcontainer-features/flux": {
       "version": "v2.1.2"
     },
