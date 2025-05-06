@@ -384,6 +384,7 @@
     "ghcr.io/prulloac/devcontainer-features/ollama": {},
     "ghcr.io/prulloac/devcontainer-features/pre-commit": {},
     "ghcr.io/rio/features/kustomize": {},
+    "ghcr.io/stuartleeks/dev-container-features/azure-cli-persistence": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history": {},
     "ghcr.io/warrenbuckley/codespace-features/sqlite": {}
   },
