@@ -144,11 +144,7 @@
       "installToolkit": true
     },
     "ghcr.io/amerintlxperts/devcontainer-features/oh-my-posh": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/tflint": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/ubuntu-restricted-extras": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/vimrc": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/yq": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/zzz-preinstall-extensions": {
+    "ghcr.io/amerintlxperts/devcontainer-features/preinstall-extensions": {
       "extensions": [
         "anderson.vscode-extension-paste-image",
         "alexcvzz.vscode-sqlite",
@@ -219,6 +215,10 @@
         "yzhang.markdown-all-in-one"
       ]
     },
+    "ghcr.io/amerintlxperts/devcontainer-features/tflint": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/ubuntu-restricted-extras": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/vimrc": {},
+    "ghcr.io/amerintlxperts/devcontainer-features/yq": {},
     "ghcr.io/audacioustux/devcontainers/k9s": {},
     "ghcr.io/azutake/devcontainer-features/go-packages-install": {
       "PACKAGES": [
