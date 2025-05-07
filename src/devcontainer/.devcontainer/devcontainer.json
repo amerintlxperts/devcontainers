@@ -240,6 +240,8 @@
         "libgl1",
         "libglx-mesa0",
         "libvulkan1",
+        "locales",
+        "locales-all",
         "mesa-utils",
         "mesa-utils-bin",
         "mesa-vulkan-drivers",
