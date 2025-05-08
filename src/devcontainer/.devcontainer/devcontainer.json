@@ -151,6 +151,7 @@
         "amazonwebservices.aws-toolkit-vscode",
         "amazonwebservices.amazon-q-vscode",
         "bmewburn.vscode-intelephense-client",
+        "coder.coder-remote",
         "continue.continue",
         "davidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
