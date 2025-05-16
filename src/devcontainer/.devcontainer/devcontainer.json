@@ -175,7 +175,7 @@
         "ms-dotnettools.csdevkit",
         "ms-kubernetes-tools.vscode-aks-tools",
         "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "ms-ossdata.vscode-postgresql",
+        "ms-ossdata.vscode-pgsql",
         "ms-playwright.playwright",
         "ms-python.debugpy",
         "ms-python.autopep8",
