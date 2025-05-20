@@ -20,5 +20,5 @@
   ],
   "remote.containers.copyGitConfig": false,
   "remote.containers.gitCredentialHelperConfigLocation": "none",
-  "version": "0.0.13"
+  "version": "0.0.14"
 }

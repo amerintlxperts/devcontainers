@@ -16,6 +16,7 @@
         ],
         "dotnetAcquisitionExtension.sharedExistingDotnetPath": "/usr/share/dotnet/dotnet",
         "files.eol": "\n",
+        "remote.containers.copyGitConfig": false,
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
           "bash": {
