@@ -16,6 +16,7 @@
         ],
         "dotnetAcquisitionExtension.sharedExistingDotnetPath": "/usr/share/dotnet/dotnet",
         "files.eol": "\n",
+        "remote.containers.copyGitConfig": false,
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
           "bash": {
@@ -144,7 +145,7 @@
       "installToolkit": true
     },
     "ghcr.io/amerintlxperts/devcontainer-features/oh-my-posh": {},
-    "ghcr.io/amerintlxperts/devcontainer-features/postgresql": {
+    "ghcr.io/amerintlxperts/devcontainer-features/postgresql": {},
     "ghcr.io/amerintlxperts/devcontainer-features/preinstall-extensions": {
       "extensions": [
         "anderson.vscode-extension-paste-image",
