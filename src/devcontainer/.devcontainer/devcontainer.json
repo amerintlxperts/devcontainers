@@ -399,7 +399,7 @@
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
   "name": "devcontainer",
-  "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && git config --global push.autoSetupRemote true",
   "runArgs": [
     "--hostname=devcontainer"
   ]
