@@ -231,9 +231,9 @@
       ]
     },
     "ghcr.io/devcontainers-community/npm-features/prettier": {},
-    "ghcr.io/devcontainers-contrib/features/act": {},
-    "ghcr.io/devcontainers-contrib/features/actionlint": {},
-    "ghcr.io/devcontainers-contrib/features/apt-packages": {
+    "ghcr.io/devcontainers-extra/features/act": {},
+    "ghcr.io/devcontainers-extra/features/actionlint": {},
+    "ghcr.io/devcontainers-extra/features/apt-packages": {
       "packages": [
         "alsa-utils",
         "apache2-utils",
@@ -307,33 +307,33 @@
         "xdg-utils"
       ]
     },
-    "ghcr.io/devcontainers-contrib/features/argo-cd": {},
-    "ghcr.io/devcontainers-contrib/features/aztfexport": {},
-    "ghcr.io/devcontainers-contrib/features/black": {},
-    "ghcr.io/devcontainers-contrib/features/checkov": {},
-    "ghcr.io/devcontainers-contrib/features/curl-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/devcontainers-cli": {},
-    "ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/fzf": {},
-    "ghcr.io/devcontainers-contrib/features/infracost": {},
-    "ghcr.io/devcontainers-contrib/features/istioctl": {},
-    "ghcr.io/devcontainers-contrib/features/kubectx-kubens": {},
-    "ghcr.io/devcontainers-contrib/features/markdownlint-cli2": {},
-    "ghcr.io/devcontainers-contrib/features/poppler-utils-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/pylint": {},
-    "ghcr.io/devcontainers-contrib/features/qrcode": {},
-    "ghcr.io/devcontainers-contrib/features/shfmt": {},
-    "ghcr.io/devcontainers-contrib/features/terraform-docs": {},
-    "ghcr.io/devcontainers-contrib/features/terrascan": {
+    "ghcr.io/devcontainers-extra/features/argo-cd": {},
+    "ghcr.io/devcontainers-extra/features/aztfexport": {},
+    "ghcr.io/devcontainers-extra/features/black": {},
+    "ghcr.io/devcontainers-extra/features/checkov": {},
+    "ghcr.io/devcontainers-extra/features/curl-apt-get": {},
+    "ghcr.io/devcontainers-extra/features/devcontainers-cli": {},
+    "ghcr.io/devcontainers-extra/features/ffmpeg-apt-get": {},
+    "ghcr.io/devcontainers-extra/features/fzf": {},
+    "ghcr.io/devcontainers-extra/features/infracost": {},
+    "ghcr.io/devcontainers-extra/features/istioctl": {},
+    "ghcr.io/devcontainers-extra/features/kubectx-kubens": {},
+    "ghcr.io/devcontainers-extra/features/markdownlint-cli2": {},
+    "ghcr.io/devcontainers-extra/features/poppler-utils-apt-get": {},
+    "ghcr.io/devcontainers-extra/features/pylint": {},
+    "ghcr.io/devcontainers-extra/features/qrcode": {},
+    "ghcr.io/devcontainers-extra/features/shfmt": {},
+    "ghcr.io/devcontainers-extra/features/terraform-docs": {},
+    "ghcr.io/devcontainers-extra/features/terrascan": {
       "version": "1.19.1"
     },
-    "ghcr.io/devcontainers-contrib/features/tmux-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/vscode-cli": {},
-    "ghcr.io/devcontainers-contrib/features/vscode-server": {},
-    "ghcr.io/devcontainers-contrib/features/wget-apt-get": {},
-    "ghcr.io/devcontainers-contrib/features/yamllint": {},
-    "ghcr.io/devcontainers-contrib/features/yt-dlp": {},
-    "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
+    "ghcr.io/devcontainers-extra/features/tmux-apt-get": {},
+    "ghcr.io/devcontainers-extra/features/vscode-cli": {},
+    "ghcr.io/devcontainers-extra/features/vscode-server": {},
+    "ghcr.io/devcontainers-extra/features/wget-apt-get": {},
+    "ghcr.io/devcontainers-extra/features/yamllint": {},
+    "ghcr.io/devcontainers-extra/features/yt-dlp": {},
+    "ghcr.io/devcontainers-extra/features/zsh-plugins": {
       "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git https://github.com/conda-incubator/conda-zsh-completion.git https://github.com/z-shell/zsh-eza.git https://github.com/cda0/zsh-tfenv.git https://github.com/yuhonas/zsh-aliases-lsd.git",
       "plugins": "zsh-syntax-highlighting zsh-autosuggestions zsh-interactive-cd ubuntu jsontools gh common-aliases zsh-aliases-lsd zsh-tfenv conda-zsh-completion z pip terraform fluxcd azure git-auto-fetch helm istioctl iterm2 kube-ps1 kubectl sudo vscode aws fzf"
     },
